@@ -36,6 +36,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
+gem "settingslogic"
 gem "unicorn", ">= 4.3.1"
 gem "pg", ">= 0.14.1"
 gem "rspec-rails", ">= 2.11.0", :group => [:development, :test]
@@ -46,3 +47,5 @@ gem "database_cleaner", ">= 0.8.0", :group => :test
 gem "launchy", ">= 2.1.2", :group => :test
 gem "factory_girl_rails", ">= 4.0.0", :group => [:development, :test]
 gem "bootstrap-sass", ">= 2.1.0.0"
+gem "twitter-bootstrap-rails"
+gem "guard"

@@ -1,0 +1,15 @@
+defaults: &defaults
+    app_name: "One Word Suggestion!"
+    
+development:
+    <<: *defaults
+
+test:
+    <<: *defaults
+
+staging: 
+    <<: *defaults    
+
+production:
+    <<: *defaults
+    

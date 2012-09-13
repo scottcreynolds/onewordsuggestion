@@ -1,4 +1,7 @@
 Onewordsuggestion::Application.routes.draw do
+  root :to => 'suggestions#index'
+  get "suggestions/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
