@@ -1,12 +1,25 @@
 class Suggestion 
   def self.all
-    suggestions = Suggestion.abras_army + ',' + Suggestion.movies + ',' + Suggestion.books + ',' + Suggestion.random + ',' + Suggestion.nouns
+    suggestions = Suggestion.sandino + ',' + Suggestion.abras_army + ',' + Suggestion.movies + ',' + Suggestion.books + ',' + Suggestion.random + ',' + Suggestion.nouns
     suggestions.split(',')
   end
   
   def self.pop_culture
     suggestions = Suggestion.movies + ',' + Suggestion.books + ',' + Suggestion.lyrics + ',' + Suggestion.music + ',' + Suggestion.tv
     suggestion.split(',')
+  end
+  
+  def self.sandino
+    "Skeleton,Window,Weed Whacker,Grandfather Clock,Mixed tape,Telephone,Shoebox,Jar of Peanut Butter,
+    Leather Jacket,Bookcase,Fruitcake,Thigh Master,Fishtank,Dynamite,Passport,Carousel,Slurpee,Vice,
+    Democracy,Eye Patch,Wheelchair,Octopus,Feet,Wizard,Butt,Crazy Horse,Velour,Mouse trap,Full Body Massage,
+    Rutgers,Dark Matter,Sexy,Full Moon,Bodygaurd,Vaudeville,Mouth Wash,Chili Cookoff,Dumpster,Indiana Jones,
+    God,Dojo,Sandworm,Trunk,Dinosaur,Math Teacher,Bear,Trade Winds,Baby,Culottes,Martha's Vineyard,Hair Gel,
+    Mystery,Pet Store,Porpoise,Trash,Aluminum,Maverick,Los Angeles,Puncture,Clock,Typewriter,Salt Shaker,
+    Diamond,Crystal Ball,Pick Axe,Toothbrush,Raincoat,Weathervane/Liam Neeson,Ferris Wheel,Gazebo (Zebra),
+    Chessboard,Hypotenuse,Awful waffle,Seahorse,Whorehouse,Pleather Saddle,Spearfishing,Backpack,Stinky Cheese,
+    Fist Bump,Penguin,Triscuit Box,Quest,Charcoal,Venn Diagram,The gang's all here!,(Beer spilled on floor),
+    The Federal Reserve,Groundhogs Day,Kool Aid,Vantage Point,Mushroom,Shitstorm"
   end
   
   def self.abras_army
