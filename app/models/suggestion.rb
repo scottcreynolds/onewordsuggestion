@@ -1,14 +1,14 @@
-class Suggestion 
+class Suggestion
   def self.all
     suggestions = Suggestion.sandino + ',' + Suggestion.abras_army + ',' + Suggestion.movies + ',' + Suggestion.books + ',' + Suggestion.random + ',' + Suggestion.nouns
     suggestions.split(',')
   end
-  
+
   def self.pop_culture
     suggestions = Suggestion.movies + ',' + Suggestion.books + ',' + Suggestion.lyrics + ',' + Suggestion.music + ',' + Suggestion.tv
     suggestion.split(',')
   end
-  
+
   def self.sandino
     "Skeleton,Window,Weed Whacker,Grandfather Clock,Mixed tape,Telephone,Shoebox,Jar of Peanut Butter,
     Leather Jacket,Bookcase,Fruitcake,Thigh Master,Fishtank,Dynamite,Passport,Carousel,Slurpee,Vice,
@@ -21,36 +21,36 @@ class Suggestion
     Fist Bump,Penguin,Triscuit Box,Quest,Charcoal,Venn Diagram,The gang's all here!,(Beer spilled on floor),
     The Federal Reserve,Groundhogs Day,Kool Aid,Vantage Point,Mushroom,Shitstorm"
   end
-  
+
   def self.abras_army
-    "Painting,Reverend,Sin,Mirror,Satisfy,Radiate,Heavy petting,Honor,Alphabet,Scale,Burst,Boundary,Pinnacle,Niggling,Count,Design,Elongate,
+    "Interrobang?!,Painting,Reverend,Sin,Mirror,Satisfy,Radiate,Heavy petting,Honor,Alphabet,Scale,Burst,Boundary,Pinnacle,Niggling,Count,Design,Elongate,
     Filter,Giggle,Haphazard,Illiterate,Juggernaut,Killer,Latitude,Mansion,Nurture,Opal,Pillage,Quilt,Rasterize,Sublime,Trite,Unabashed,Valentine,Whale,X-ray,Yowl,Zap,
     Celebration,Love,Pinata,Parade,Finger,Nail,Hardware,Boat,Royalty,Skin,Murder,Corpse,Blood,Entrails,Evisceration,Exsanguinate,Decapitate,Wedding,Cake,
     Shopping Cart,Helmet,Rubber Band,Shiny,Stain,Workshop,Button,Socket,Rotation,Stutter,Image,Crow,Marine,Royal,Relief,Comic,Match,Trio,Squeek,Growth,Flow,
     Chapped,Serene,Glow,Parallel,Pineapple,Pineapple,Pineapple,Chainsaw,Mixer,Graduation,Newborn,Train station,Elephant,Ant,Pants,Cape,Lunch tray,Spider,Moon landing,Autumn,
     Vestibule,Rabbit ears,Gangland,Pole,Cake,Pie,Salad"
   end
-  
+
   def self.movies
     "The Matrix,The Godfather,Jaws,Star Wars,Steel Magnolias,Titanic,Memento,Star Trek,The Goonies,Fear and Loathing in Las Vegas,Transformers,Terminator"
   end
-  
+
   def self.books
     "The Great Gatsby,Grapes of Wrath,1984,The Cat in the Hat,Of Mice and Men, Catcher in the Rye"
   end
-  
+
   def self.random
     "Screenplay"
   end
-  
+
   def self.sports
     "Soccer,Hockey,Basketball,Football,Rugby,Cricket,Foosball,Darts,Bowling,Golf,Baseball,Billiards,Pool,Fishing,Hunting"
   end
-  
+
   def self.idioms
     "On the take,On the lam,Blood in the water,Money pit,Take it up a notch,Make the grade,Pass Muster,Make the grade"
   end
-  
+
   def self.nouns
     "aardvark,abyssinian,accelerator,accordion,account,accountant,acknowledgment,acoustic,acrylic,act,action,active,activity,actor,actress,adapter,addition,address,
     adjustment,adult,advantage,advertisement,advice,afghanistan,africa,aftermath,afternoon,aftershave,afterthought,age,agenda,agreement,air,airbus,airmail,airplane,
