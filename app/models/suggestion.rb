@@ -1,6 +1,6 @@
 class Suggestion
   def self.all
-    suggestions = Suggestion.sandino + ',' + Suggestion.abras_army + ',' + Suggestion.movies + ',' + Suggestion.books + ',' + Suggestion.random + ',' + Suggestion.nouns
+    suggestions = Suggestion.warriorv + ', ' + Suggestion.sandino + ',' + Suggestion.abras_army + ',' + Suggestion.movies + ',' + Suggestion.books + ',' + Suggestion.random + ',' + Suggestion.nouns
     suggestions.split(',')
   end
 
@@ -9,6 +9,9 @@ class Suggestion
     suggestion.split(',')
   end
 
+  def self.warriorv
+    "Constantinople"
+  end
   def self.sandino
     "Skeleton,Window,Weed Whacker,Grandfather Clock,Mixed tape,Telephone,Shoebox,Jar of Peanut Butter,
     Leather Jacket,Bookcase,Fruitcake,Thigh Master,Fishtank,Dynamite,Passport,Carousel,Slurpee,Vice,
