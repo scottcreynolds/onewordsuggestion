@@ -10,7 +10,7 @@ class Suggestion
   end
 
   def self.warriorv
-    "Constantinople"
+    "Constantinople, velociraptor"
   end
   def self.sandino
     "Skeleton,Window,Weed Whacker,Grandfather Clock,Mixed tape,Telephone,Shoebox,Jar of Peanut Butter,
