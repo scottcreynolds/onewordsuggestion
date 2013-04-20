@@ -10,8 +10,9 @@ class Suggestion
   end
 
   def self.warriorv
-    "Constantinople, velociraptor, power tools, raincoat, gravity, Carpathian"
+    "Constantinople, velociraptor, power tools, raincoat, gravity, Carpathian, jumpsuit, weed"
   end
+
   def self.sandino
     "Skeleton,Window,Weed Whacker,Grandfather Clock,Mixed tape,Telephone,Shoebox,Jar of Peanut Butter,
     Leather Jacket,Bookcase,Fruitcake,Thigh Master,Fishtank,Dynamite,Passport,Carousel,Slurpee,Vice,
@@ -158,6 +159,6 @@ class Suggestion
     war,warm,wash,washer,wasp,waste,watch,watchmaker,water,waterfall,wave,wax,way,wealth,weapon,weasel,weather,wedge,wednesday,weed,weeder,week,weight,whale,wheel,whip,
     whiskey,whistle,white,wholesaler,whorl,wilderness,william,willow,wind,windchime,window,windscreen,windshield,wine,wing,winter,wire,wish,witch,withdrawal,witness,wolf,woman,
     women,wood,wool,woolen,word,work,workshop,worm,wound,wrecker,wren,wrench,wrinkle,wrist,writer,xylophone,yacht,yak,yam,yard,yarn,year,yellow,yew,yogurt,yoke,yugoslavian,zebra,
-    zephyr  ,zinc,zipper,zone,zoo,zoology"
+    zephyr ,zinc,zipper,zone,zoo,zoology"
   end
 end
