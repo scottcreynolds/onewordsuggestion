@@ -10,7 +10,7 @@ class Suggestion
   end
 
   def self.warriorv
-    "Constantinople, velociraptor, power tools, raincoat, gravity, Carpathian, jumpsuit, weed"
+    "Constantinople, velociraptor, power tools, raincoat, gravity, Carpathian, jumpsuit, weed, candelabra, salmon, ActionScript"
   end
 
   def self.sandino
