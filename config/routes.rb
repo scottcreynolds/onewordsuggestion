@@ -8,4 +8,6 @@ Onewordsuggestion::Application.routes.draw do
   match '/sandino' => "sandino#index"
   root :to => 'suggestions#index'
   get "suggestions/index"
+  get "suggestions/blob"
+  get "/blob" => 'suggestions#blob'
 end

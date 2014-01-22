@@ -8,4 +8,9 @@ class SuggestionsController < ApplicationController
     @noun = Character.nouns.sample(1).first
     @profession = Character.professions.sample(1).first
   end
+
+  def blob
+    @suggestion = Suggestion.all.shuffle.sample(17).join(" ")
+    render action: :index
+  end
 end
