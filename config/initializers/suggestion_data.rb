@@ -14,5 +14,3 @@ Dir.glob("#{data_dir}/**/*.txt").each do |path|
 end
 
 SUGGESTION_DATA = data
-
-p SUGGESTION_DATA
