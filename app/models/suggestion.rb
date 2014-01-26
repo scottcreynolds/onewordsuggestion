@@ -8,6 +8,6 @@ class Suggestion < TextModel
   end
 
   def self.get_suggestions(*args)
-    results = args.reduce([]){|x,y| x + Suggestion.send(y) }
+    args.reduce([]){|x,y| x + Suggestion.send(y) }
   end
 end
