@@ -1,0 +1,15 @@
+Soccer
+Hockey
+Basketball
+Football
+Rugby
+Cricket
+Foosball
+Darts
+Bowling
+Golf
+Baseball
+Billiards
+Pool
+Fishing
+Hunting

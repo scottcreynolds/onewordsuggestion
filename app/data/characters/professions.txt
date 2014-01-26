@@ -1,0 +1,156 @@
+president
+vice-president
+astronaut
+CEO
+director
+deputy director
+managing director
+financial director
+marketing director
+general manager
+assistant manager
+manager
+personnel manager
+production manager
+marketing manager
+sales manager
+accounts manager
+supervisor
+inspector
+office clerk
+receptionist
+secretary
+typist
+stenographer
+banker
+bank officer
+accountant
+bookkeeper
+economist
+teller
+cashier
+auditor
+doctor
+physician
+family doctor
+general practitioner
+eye doctor
+cardiologist
+surgeon
+pediatrician
+psychiatrist
+dentist
+dietician
+pharmacist
+veterinarian
+nurse
+paramedic
+chef
+cook
+maitre d
+waiter
+waitress
+bartender
+barman
+sales representative
+sales manager
+salesperson
+salesman
+saleswoman
+cashier
+wholesaler
+retailer
+advertising agent
+musician
+composer
+singer
+dancer
+artist
+painter
+producer
+actor
+actress
+cameraman
+writer
+author
+playwright
+reporter
+journalist
+photographer
+architect
+designer
+interior designer
+web designer
+computer programmer
+principal
+dean
+professor
+teacher
+student
+engineer
+technician
+mechanic
+builder
+construction worker
+handyman
+welder
+bricklayer
+mason
+carpenter
+plumber
+painter
+scientist
+scholar
+researcher
+explorer
+mathematician
+physicist
+chemist
+biologist
+astronomer
+historian
+archeologist
+economist
+philosopher
+psychologist
+judge
+lawyer
+attorney
+cop
+detective
+guard
+bodyguard
+expert
+specialist
+consultant
+adviser
+pilot
+flight attendant
+hacker
+thief
+burglar
+serial killer
+stalker
+supervillain
+driver
+taxi driver
+bus driver
+truck driver
+firefighter
+librarian
+farmer
+tailor
+model
+politician
+priest
+travel agent
+hairdresser
+barber
+beautician
+cosmetologist
+maid
+janitor
+mayor
+councilwoman
+senator
+congressman
